@@ -4,4 +4,9 @@ const thomObject = {
     weight: false
 }
 
+const newObj = {
+    ...thomObject,
+    color: 'idc'
+}
+console.log(newObj)
 console.log(thomObject)
